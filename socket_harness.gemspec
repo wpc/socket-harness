@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["wpc"]
   spec.email         = ["alex.hal9000@gmail.com"]
   spec.summary       = %q{Proxy for socket test harness.}
-  spec.description   = %q{Proxy for socket test harness.}
-  spec.homepage      = ""
+  spec.description   = %q{SocketHarness is a test utilities that helps implement Test Harness pattern from the book "Release it!". It seats between application and integration server to simulate odd network/application behaviors, e.g. slow network.}
+  spec.homepage      = "https://github.com/wpc/socket-harness"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
