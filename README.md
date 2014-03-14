@@ -1,6 +1,9 @@
 # SocketHarness
 
-TODO: Write a gem description
+SocketHarness is a test utilities that helps implement Test Harness pattern from book "Release it!".  It seats between application and integration server to simulate odd network/application behaviors.
+
+Current Feature:
+* delay: help for simulating slow network or server to test timeout failure mode.
 
 ## Installation
 
@@ -18,7 +21,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+Usage: bin/socket_harness [options] remotehost remoteport
+    -p, --port PORT                  local port to bind
+    -b, --bind ADDRESS               local address to bind
+        --block-size NUMBER          chunck out large data reads. by default 1024 byte
+    -d, --delay NUMBER               delay for client response: 12 will deplay 12ms for package sending back to the client.
+```
+
 
 ## Contributing
 
