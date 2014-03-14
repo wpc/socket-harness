@@ -1,6 +1,6 @@
 # SocketHarness
 
-SocketHarness is a test utilities that helps implement Test Harness pattern from the book "Release it!".  It seats between application and integration server to simulate odd network/application behaviors.
+SocketHarness is a test utilities that helps implement Test Harness pattern from the book "Release it!".  It seats between application and integration server to simulate odd network/server behaviors.
 
 Current Feature:
 * delay: help for simulating slow network or server to test timeout failure mode.
